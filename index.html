@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Cafe</title>
+    <link rel="stylesheet" href="CSS/master.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#where">WHERE</a>
+    </nav>
+
+    <!-- home -->
+    <header id="home" class="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-text bottom-left">Open from 6am to 5pm</div>
+        <div class="hero-text center"><span class="cafe-name">the<br>Cafe</span></div>
+        <div class="hero-text bottom-right">15 Adr street, 5015</div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="content-section">
+        <h2>ABOUT THE CAFE</h2>
+        <p>The Cafe was founded in blabla by Mr. Smith in Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            officia quam eum debitis magni cumque maiores non repellendus provident, tempora, soluta voluptas
+            consequuntur nostrum velit assumenda dolore, iure et rerum?</p>
+        <br>
+        <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch
+            sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        <blockquote>
+            “Use products from nature for what it's worth – but never too early, nor too late.”<br>
+            <em>Chef, Coffeeist and Owner: Liam Brown</em>
+        </blockquote>
+        <img src="CSS/Images/coffeeshop.jpg" alt="Coffeeshop interior">
+        <p><strong>Opening hours:</strong> everyday from 6am to 5pm.<br>
+            <strong>Address:</strong> 15 Adr street, 5015, NY
+        </p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="content-section">
+        <h2>THE MENU</h2>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="eat">Eat</button>
+            <button class="tab-button" data-tab="drink">Drink</button>
+        </div>
+        <div class="tab-content" id="eat">
+            <h3>Bread Basket</h3>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h3>Honey Almond Granola with Fruits</h3>
+            <p>Natural cereal of honey toasted oats… 7.00</p>
+            <h3>Belgian Waffle</h3>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <h3>Scrambled eggs</h3>
+            <p>Scrambled eggs… with green onions 7.50</p>
+            <h3>Blueberry Pancakes</h3>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="tab-content hidden" id="drink">
+            <h3>Coffee</h3>
+            <p>Regular coffee 2.50</p>
+            <h3>Chocolato</h3>
+            <p>Chocolate espresso with milk 4.50</p>
+            <h3>Corretto</h3>
+            <p>Whiskey and coffee 5.00</p>
+            <h3>Iced tea</h3>
+            <p>Hot tea, except not hot 3.00</p>
+            <h3>Soda</h3>
+            <p>Coke, Sprite, Fanta, etc. 2.50</p>
+        </div>
+        <img src="CSS/Images/coffeehouse2.jpg" alt="More cafe image">
+    </section>
+
+    <!-- Where -->
+    <section id="where" class="content-section">
+        <h2>WHERE TO FIND US</h2>
+        <p>Find us at some address at some place.</p>
+        <img src="CSS/Images/map.jpg" alt="Map to cafe">
+        <p class="catering-info">We offer full-service catering for any event, large or small. We understand your needs
+            and we will cater the
+            food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p><span class="reserve">Reserve </span>a table, ask for today's special or just send us a message:</p>
+
+        <form class="reservation-form">
+            <input type="text" placeholder="Name" required>
+            <input type="number" placeholder="How Many People" required>
+            <input type="date">
+            <textarea placeholder="Message \ Special requirments" required></textarea>
+            <button class="send-button">SEND MESSAGE</button>
+        </form>
+
+    </section>
+</body>
+
+</html>
